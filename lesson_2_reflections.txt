@@ -16,9 +16,13 @@ organized? How would branches help?
 Make a temporary or experimental change.  Check out some new logic without touching the mainline code.
 
 How do the diagrams help you visualize the branch structure?
+diagrams show a linear view with bifurations at the branches to show the commit path of the master branch and the different branches.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+We get code and commit history from both branches.  The diagram shows the new merged node as the tip of master.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+Automatic merging takes care of the trivial merges.  The tool is trustable to do these, so doing manual merges is really not required.
